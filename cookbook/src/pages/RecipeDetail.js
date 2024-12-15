@@ -12,7 +12,7 @@ function RecipeDetail() {
 
     return (
         <div>
-            <h1>{recipe.title}</h1>
+            <h1>{recipe.id}. {recipe.title}</h1>
             <img src={`${process.env.PUBLIC_URL}/${recipe.image_path}`} alt={`${recipe.id} image.`} className='recipe-detail-img'/>
             <h3>Ingredients</h3>
             <ul>

@@ -14,6 +14,22 @@
       "description": "Easy fried rice dish.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
       "instructions": "Cook chicken. Cook rice. Throw together."
+    },
+    {
+      "id": "3",
+      "title": "Fried Rice Again",
+      "image_path": "food_images/2friedrice.jpeg",
+      "description": "Easy fried rice dish.",
+      "ingredients": ["Chicken", "Rice", "Soy sauce"],
+      "instructions": "Cook delicious chicken. Cook rice. Throw together."
+    },
+    {
+      "id": "4",
+      "title": "Fried Rice Again Again",
+      "image_path": "food_images/2friedrice.jpeg",
+      "description": "Easy fried rice dish.",
+      "ingredients": ["Chicken", "Rice", "Soy sauce"],
+      "instructions": "Cook special chicken. Cook rice. Throw together."
     }
   ]
   

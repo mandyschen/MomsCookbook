@@ -26,12 +26,12 @@ header nav ul li a {
 h1 {
   color: darkred;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 4vw;
+  font-size: 3em;
 }
 h2 {
   color: darkgoldenrod;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 3vw;
+  font-size: 2em;
 }
 
 .content-wrapper { 
