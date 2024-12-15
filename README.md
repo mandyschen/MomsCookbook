@@ -6,6 +6,7 @@ Mom's Cookbook is a React-based cookbook web application where users can browse 
 
 - Browse recipes with images, descriptions, and ingredients.
 - Search for recipes by title or description.
+- Create, read, update, and delete notes.
 - Responsive design for mobile and desktop.
 - Easy-to-navigate UI with a home button and header search bar.
 
@@ -15,6 +16,7 @@ Mom's Cookbook is a React-based cookbook web application where users can browse 
 
 - To search for recipes, type keywords in the search bar and press enter. Matching results will appear below.
 - Click on individal recipes to view more details.
+- Edit notes and save for future reference.
 
 ---
 
