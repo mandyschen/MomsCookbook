@@ -12,6 +12,7 @@ function App() {
             <Header />
             <div className='content-wrapper'>
               <Routes>
+                  <Route path="/MomsCookbook" element={<Home />} />
                   <Route path="/" element={<Home />} />
                   <Route path="/recipe/:id" element={<RecipeDetail />} />
                   <Route path="/search" element={<SearchResults />} />
