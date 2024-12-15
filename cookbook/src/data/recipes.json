@@ -1,0 +1,19 @@
+[
+    {
+      "id": "1",
+      "title": "Dong",
+      "image_path": "food_images/1dong.jpg",
+      "description": "Rice wrapped in lotus leaves.",
+      "ingredients": ["Rice", "Meat", "Leaves"],
+      "instructions": "Stir rice together. Steam."
+    },
+    {
+      "id": "2",
+      "title": "Fried Rice",
+      "image_path": "food_images/2friedrice.jpeg",
+      "description": "Easy fried rice dish.",
+      "ingredients": ["Chicken", "Rice", "Soy sauce"],
+      "instructions": "Cook chicken. Cook rice. Throw together."
+    }
+  ]
+  
