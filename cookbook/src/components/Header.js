@@ -25,7 +25,7 @@ function Header() {
                                 type="text"
                                 value={searchQuery}
                                 onChange={handleSearchChange}
-                                placeholder="Search recipes..."
+                                placeholder="Search recipes"
                                 style={{
                                     padding: '0.3rem',
                                     border: '0.1rem solid #ccc',
