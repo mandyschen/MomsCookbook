@@ -18,7 +18,7 @@ function Header() {
         <header>
             <nav>
                 <ul>
-                    <li><Link to="/" className='button-link' style={{ padding: '0px 3px' }}><i className="fas fa-home"></i></Link></li>
+                    <li><Link to="/MomsCookbook" className='button-link' style={{ padding: '0rem 0.5rem' }}><i className="fas fa-home"></i></Link></li>
                     <li>
                         <form onSubmit={handleSearchSubmit} style={{ display: 'flex', alignItems: 'center' }}>
                             <input
@@ -27,10 +27,10 @@ function Header() {
                                 onChange={handleSearchChange}
                                 placeholder="Search recipes..."
                                 style={{
-                                    padding: '5px',
-                                    border: '1px solid #ccc',
-                                    borderRadius: '4px',
-                                    marginRight: '10px'
+                                    padding: '0.3rem',
+                                    border: '0.1rem solid #ccc',
+                                    borderRadius: '0.4rem',
+                                    marginRight: '0.1rem'
                                 }}
                             />
                             <button type="submit" className="button-link">
