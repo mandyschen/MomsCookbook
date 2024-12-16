@@ -93,7 +93,7 @@
                         "Step two test"]
     },
     {
-      "id": "9",
+      "id": "10",
       "title": "Vinegar Eggs (Tu An)",
       "folder": "food_images/vinegareggs",
       "image_path": ["1.jpg"],
@@ -103,7 +103,7 @@
                         "Step two test"]
     },
     {
-      "id": "10",
+      "id": "11",
       "title": "Rice Cakes (Nian Gao)",
       "folder": "food_images/test",
       "image_path": ["1.jpg", "2.jpg", "3.jpg"],
