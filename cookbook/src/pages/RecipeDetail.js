@@ -104,7 +104,11 @@ function RecipeDetail() {
                 ))}
             </ul>
             <h3>Instructions</h3>
-            <p>{recipe.instructions}</p>
+            <ol>
+                {recipe.instructions.map((ingredient, index) => (
+                    <li key={index}>{ingredient}</li>
+                ))}
+            </ol>
 
             <h3>Notes</h3>
             <textarea

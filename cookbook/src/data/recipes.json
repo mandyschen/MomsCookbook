@@ -1,102 +1,116 @@
 [
     {
       "id": "1",
-      "title": "Lotus Leaf Wrap (Dong)",
+      "title": "Bamboo Leaf Wrap (Dong)",
       "folder": "food_images/lotusleafwrap",
       "image_path": ["2.jpg", "3.jpg", "1.jpg"],
-      "description": "Rice wrapped in lotus leaves.",
-      "ingredients": ["Rice", "Meat", "Leaves"],
-      "instructions": "Stir rice together. Steam."
+      "description": "Also known as Chinese sushi. Rice wrapped in bamboo leaves with a tasty salted egg inside.",
+      "ingredients": ["Bamboo leaves", "String", "Sticky rice", "Peanuts", "Salted egg", "Pork meat", "Chicken powder", "Oil", "Salt"],
+      "instructions": ["Boil bamboo leaves for half an hour. Wash each leaf. Set out to dry (but not completely).", 
+                        "Wash rice. Add some salt, chicken powder, oil, and peanuts. Mix all together.",
+                        "Take two leaves and make them into a cup shape. Scoop the seasoned rice into it. Add the egg and meat. Add some more rice on top.",
+                        "Take one or two leaves to close off the cup. Tie together with a string.",
+                        "Boil the leaf wraps for at least three hours. Refill the water as needed."]
     },
     {
       "id": "2",
       "title": "Dumpling (Gao Du)",
       "folder": "food_images/dumpling",
       "image_path": ["1.jpg", "2.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "The dish that Meanz always eats. Tastes bests with a spicy dumpling sauce.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "3",
       "title": "Fried Noodles (Chow Fan)",
       "folder": "food_images/friednoodles",
       "image_path": ["1.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "Very crunchy and salty. A good meal perfect for lazy days.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook delicious chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "4",
       "title": "Onion Pancakes (Tong Biang)",
       "folder": "food_images/onionpancakes",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "Food in its peak form. A perfect mix of chewy, salty, and oniony to make the best pancakes ever.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "5",
       "title": "Rice Noodle Rolls (Chang Fun)",
       "folder": "food_images/ricenoodlerolls",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "A very delicious type of noodle.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "6",
       "title": "Sushi",
       "folder": "food_images/sushi",
       "image_path": ["1.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "The easiest food for Mudz to eat. The best 'lazy' food.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "7",
       "title": "Steamed Buns (Man Hou)",
       "folder": "food_images/steamedbuns",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "Very delicious and comforting food. Can be made to look extremely beautiful and presentable.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "8",
       "title": "Fried Rice (Chou Fan)",
       "folder": "food_images/friedrice",
       "image_path": ["1.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "The best fried rice dish available anywhere.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "9",
       "title": "Rice Ball Noodles (Tang Yuan)",
       "folder": "food_images/riceballnoodles",
       "image_path": ["1.jpg", "2.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "The best type of noodles. Comes in bite-sized, chewy balls.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "9",
       "title": "Vinegar Eggs (Tu An)",
       "folder": "food_images/vinegareggs",
       "image_path": ["1.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "The most delicious way to cook eggs. Flavorful burst that's good with rice or alone.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     },
     {
       "id": "10",
       "title": "Rice Cakes (Nian Gao)",
       "folder": "food_images/test",
       "image_path": ["1.jpg", "2.jpg", "3.jpg"],
-      "description": "Easy fried rice dish.",
+      "description": "A great and unique way to eat rice.",
       "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": "Cook special chicken. Cook rice. Throw together."
+      "instructions": ["Step one test",
+                        "Step two test"]
     }
   ]
   
