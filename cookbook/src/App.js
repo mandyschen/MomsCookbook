@@ -15,8 +15,8 @@ function App() {
               <ScrollToTop />
               <Routes>
                   <Route path="/MomsCookbook" element={<Home />} />
-                  <Route path="/recipe/:id" element={<RecipeDetail />} />
-                  <Route path="/search" element={<SearchResults />} />
+                  <Route path="/MomsCookbook/recipe/:id" element={<RecipeDetail />} />
+                  <Route path="/MomsCookbook/search" element={<SearchResults />} />
               </Routes>
             </div>
         </Router>

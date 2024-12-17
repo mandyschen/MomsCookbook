@@ -11,7 +11,7 @@ function Header() {
 
     const handleSearchSubmit = (event) => {
         event.preventDefault();
-        navigate(`/search?query=${searchQuery}`);
+        navigate(`/MomsCookbook/search?query=${searchQuery}`);
     };
 
     return (
