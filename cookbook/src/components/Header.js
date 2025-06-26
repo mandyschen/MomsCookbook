@@ -25,6 +25,12 @@ function Header() {
                         </Link>
                     </li>
                     <li>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJ3PFmnDGd8_djUOu_DUrGOyhcx5vpr93eUsRU2EwX2PC3og/viewform?usp=sharing&ouid=106306536704742609739" target="_blank" rel="noopener noreferrer" className='button-link'>
+                            <i className="fas fa-edit"></i>
+                            <span>Submit or Request a Recipe</span>
+                        </a>
+                    </li>
+                    <li>
                         <form onSubmit={handleSearchSubmit} className="search-form">
                             <input
                                 type="text"

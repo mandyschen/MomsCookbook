@@ -7,12 +7,12 @@ function Home() {
         <div>
             <div className="home-header">
                 <img 
-                    src={`${process.env.PUBLIC_URL}/images/full_icon.png`} 
+                    src={`${process.env.PUBLIC_URL}/images/momcookbook_art.png`} 
                     alt="Mom's Cookbook" 
                     className="home-logo"
                 />
                 <h1>Mom's Cookbook</h1>
-                <p>Discover delicious family recipes passed down through generations</p>
+                <p>Delicious recipes from our amazing mom! Birthday present for Shunz.</p>
             </div>
             <div className="recipes-grid">
                 {recipes.map((recipe) => (
