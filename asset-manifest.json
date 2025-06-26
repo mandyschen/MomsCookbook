@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MomsCookbook/static/css/main.1205996f.css",
-    "main.js": "/MomsCookbook/static/js/main.45fac77b.js",
+    "main.js": "/MomsCookbook/static/js/main.29ca736d.js",
     "static/js/488.3e147679.chunk.js": "/MomsCookbook/static/js/488.3e147679.chunk.js",
     "index.html": "/MomsCookbook/index.html",
     "main.1205996f.css.map": "/MomsCookbook/static/css/main.1205996f.css.map",
-    "main.45fac77b.js.map": "/MomsCookbook/static/js/main.45fac77b.js.map",
+    "main.29ca736d.js.map": "/MomsCookbook/static/js/main.29ca736d.js.map",
     "488.3e147679.chunk.js.map": "/MomsCookbook/static/js/488.3e147679.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1205996f.css",
-    "static/js/main.45fac77b.js"
+    "static/js/main.29ca736d.js"
   ]
 }
