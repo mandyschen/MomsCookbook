@@ -5,19 +5,20 @@ import RecipeCard from '../components/RecipeCard';
 function Home() {
     return (
         <div>
-            <img 
-                src={`${process.env.PUBLIC_URL}/images/full_icon.png`} 
-                alt="Full icon image." 
-                style={{
-                    width: '50vw',
-                    height: 'auto',
-                    margin: '0 auto',
-                    display: 'block'
-                }} 
-            />
-            {recipes.map((recipe) => (
-                <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
+            <div className="home-header">
+                <img 
+                    src={`${process.env.PUBLIC_URL}/images/full_icon.png`} 
+                    alt="Mom's Cookbook" 
+                    className="home-logo"
+                />
+                <h1>Mom's Cookbook</h1>
+                <p>Discover delicious family recipes passed down through generations</p>
+            </div>
+            <div className="recipes-grid">
+                {recipes.map((recipe) => (
+                    <RecipeCard key={recipe.id} recipe={recipe} />
+                ))}
+            </div>
         </div>
     );
 }

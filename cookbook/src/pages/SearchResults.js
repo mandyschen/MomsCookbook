@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import RecipeCard from '../components/RecipeCard';
 import recipesData from '../data/recipes.json';
 
@@ -25,15 +25,31 @@ function SearchResults() {
 
     return (
         <div>
-            <h1>Search Results</h1>
+            <div className="search-results-header">
+                <h1>Search Results</h1>
+                {query && (
+                    <p className="search-results-count">
+                        Found {filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? 's' : ''} for "{query}"
+                    </p>
+                )}
+            </div>
+            
             {filteredRecipes.length > 0 ? (
-                <div className="recipe-list">
+                <div className="recipes-grid">
                     {filteredRecipes.map((recipe) => (
                         <RecipeCard key={recipe.id} recipe={recipe} />
                     ))}
                 </div>
             ) : (
-                <p>No recipes found for "{query}".</p>
+                <div className="no-results">
+                    <h2>No recipes found</h2>
+                    <p>We couldn't find any recipes matching "{query}".</p>
+                    <p>Try searching with different keywords or browse all recipes.</p>
+                    <Link to="/MomsCookbook" className="button-link">
+                        <i className="fas fa-home"></i>
+                        <span>Browse All Recipes</span>
+                    </Link>
+                </div>
             )}
         </div>
     );

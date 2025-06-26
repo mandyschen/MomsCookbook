@@ -18,23 +18,24 @@ function Header() {
         <header>
             <nav>
                 <ul>
-                    <li><Link to="/MomsCookbook" className='button-link' style={{ padding: '0rem 0.5rem' }}><i className="fas fa-home"></i></Link></li>
                     <li>
-                        <form onSubmit={handleSearchSubmit} style={{ display: 'flex', alignItems: 'center' }}>
+                        <Link to="/MomsCookbook" className='button-link'>
+                            <i className="fas fa-home"></i>
+                            <span>Home</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <form onSubmit={handleSearchSubmit} className="search-form">
                             <input
                                 type="text"
                                 value={searchQuery}
                                 onChange={handleSearchChange}
-                                placeholder="Search recipes"
-                                style={{
-                                    padding: '0.3rem',
-                                    border: '0.1rem solid #ccc',
-                                    borderRadius: '0.4rem',
-                                    marginRight: '0.1rem'
-                                }}
+                                placeholder="Search recipes..."
+                                className="search-input"
                             />
-                            <button type="submit" className="button-link">
-                                <strong>Go!</strong>
+                            <button type="submit" className="search-button">
+                                <i className="fas fa-search"></i>
+                                <span>Search</span>
                             </button>
                         </form>
                     </li>

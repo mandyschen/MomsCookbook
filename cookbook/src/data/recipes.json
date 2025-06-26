@@ -1,7 +1,8 @@
 [
     {
       "id": "1",
-      "title": "Bamboo Leaf Wrap (Dong)",
+      "title": "Bamboo Leaf Wrap",
+      "subtitle": "Dong",
       "folder": "food_images/lotusleafwrap",
       "image_path": ["2.jpg", "3.jpg", "1.jpg"],
       "description": "Also known as Chinese sushi. Rice wrapped in bamboo leaves with a tasty salted egg inside.",
@@ -14,7 +15,8 @@
     },
     {
       "id": "2",
-      "title": "Dumpling (Jiao Zi/Gao Du)",
+      "title": "Dumpling",
+      "subtitle": "Jiao Zi/Gao Du",
       "folder": "food_images/dumpling",
       "image_path": ["1.jpg", "2.jpg"],
       "description": "The dish that Meanz always eats. Tastes bests with a spicy dumpling sauce.",
@@ -24,7 +26,8 @@
     },
     {
       "id": "3",
-      "title": "Fried Noodles (Chao Mian)",
+      "title": "Fried Noodles",
+      "subtitle": "Chao Mian",
       "folder": "food_images/friednoodles",
       "image_path": ["1.jpg"],
       "description": "Very crunchy and salty. A good meal perfect for lazy days.",
@@ -34,7 +37,8 @@
     },
     {
       "id": "4",
-      "title": "Onion Pancakes (Tong Biang)",
+      "title": "Onion Pancakes",
+      "subtitle": "Tong Biang",
       "folder": "food_images/onionpancakes",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
       "description": "Food in its peak form. A perfect mix of chewy, salty, and oniony to make the best pancakes ever.",
@@ -44,7 +48,8 @@
     },
     {
       "id": "5",
-      "title": "Rice Noodle Rolls (Chang Fen)",
+      "title": "Rice Noodle Rolls",
+      "subtitle": "Chang Fen",
       "folder": "food_images/ricenoodlerolls",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
       "description": "A very delicious type of noodle.",
@@ -54,7 +59,8 @@
     },
     {
       "id": "6",
-      "title": "Sushi (Shou Si)",
+      "title": "Sushi",
+      "subtitle": "Shou Si",
       "folder": "food_images/sushi",
       "image_path": ["1.jpg"],
       "description": "The easiest food for Mudz to eat. The best 'lazy' food.",
@@ -64,7 +70,8 @@
     },
     {
       "id": "7",
-      "title": "Steamed Buns (Man Tou)",
+      "title": "Steamed Buns",
+      "subtitle": "Man Tou",
       "folder": "food_images/steamedbuns",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"],
       "description": "Very delicious and comforting food. Can be made to look extremely beautiful and presentable.",
@@ -74,7 +81,8 @@
     },
     {
       "id": "8",
-      "title": "Fried Rice (Chao Fan)",
+      "title": "Fried Rice",
+      "subtitle": "Chao Fan",
       "folder": "food_images/friedrice",
       "image_path": ["1.jpg"],
       "description": "The best fried rice dish available anywhere.",
@@ -84,7 +92,8 @@
     },
     {
       "id": "9",
-      "title": "Rice Ball Noodles (Tang Yuan)",
+      "title": "Rice Ball Noodles",
+      "subtitle": "Tang Yuan",
       "folder": "food_images/riceballnoodles",
       "image_path": ["1.jpg", "2.jpg"],
       "description": "The best type of noodles. Comes in bite-sized, chewy balls.",
@@ -94,7 +103,8 @@
     },
     {
       "id": "10",
-      "title": "Vinegar Eggs (Cu Dan)",
+      "title": "Vinegar Eggs",
+      "subtitle": "Cu Dan",
       "folder": "food_images/vinegareggs",
       "image_path": ["1.jpg"],
       "description": "The most delicious way to cook eggs. Flavorful burst that's good with rice or alone.",
@@ -104,7 +114,8 @@
     },
     {
       "id": "11",
-      "title": "Rice Cakes (Nian Gao)",
+      "title": "Rice Cakes",
+      "subtitle": "Nian Gao",
       "folder": "food_images/ricecakes",
       "image_path": ["1.jpg"],
       "description": "A great and unique way to eat rice.",
