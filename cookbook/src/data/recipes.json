@@ -20,9 +20,12 @@
       "folder": "food_images/dumpling",
       "image_path": ["1.jpg", "2.jpg"],
       "description": "The dish that Meanz always eats. Tastes bests with a spicy dumpling sauce.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Dumpling wrappers", "Minced pork", "Green onions", "Egg", "Salt", "Soy sauce", "Chicken essence", "Sesame oil", "Cornstarch"],
+      "instructions": ["Go to the store and buy some dumpling wrappers.",
+                        "Add the fillings, minced pork, green onions, and a raw egg together.",
+                        "Add seasonings: salt, soy sauce, chicken essence, sesame oil, cornstarch water, mix them all together with chopsticks for one minute.",
+                        "Then you can start taking a piece of dumpling wrapper and use a small spoon to scoop a small spoonful of fillings into the dumpling wrapper, and then apply clean water to the edge of the dumpling surface, so that the dumplings can stick together.",
+                        "When cooking dumplings, wait for the water to boil before putting the dumplings in, and then add a little cold water after about three minutes, so that the dumplings will not crack. Cook for about ten minutes, and when all the dumplings float up, take one and open it. When the meat is cooked, you can fish it out and eat it."]
     },
     {
       "id": "3",
@@ -31,9 +34,10 @@
       "folder": "food_images/friednoodles",
       "image_path": ["1.jpg"],
       "description": "Very crunchy and salty. A good meal perfect for lazy days.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Noodles", "Oil", "Salt", "Soy sauce", "Garlic powder", "Chicken powder", "Sesame oil", "Vegetables", "Meat", "Eggs", "Shrimp"],
+      "instructions": ["Boil the noodles with hot water first, then rinse with cold water. Leave it there so that the noodles are dry.",
+                        "Use a non-stick pan, add oil, season the noodles with salt, soy sauce, garlic powder, chicken powder, sesame oil, mix together, then fry in the pan until both sides are golden brown and then put it on the plate.",
+                        "Use your favorite vegetables and meat or eggs, shrimp, cook them and put them on the noodles"]
     },
     {
       "id": "4",
@@ -42,9 +46,11 @@
       "folder": "food_images/onionpancakes",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
       "description": "Food in its peak form. A perfect mix of chewy, salty, and oniony to make the best pancakes ever.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Flour", "Oil", "Green onions", "Salt"],
+      "instructions": ["Use 500 grams of flour, add half of it to warm water and half to cold water, mix well and then mix again.",
+                        "The flour needs to be placed in the container for about half an hour, then continue to roll out the flour, then divide the dough into several small pieces, then spray oil on the small pieces, cover with plastic wrap and wait for two hours, or put it in the refrigerator and do it tomorrow.",
+                        "Prepare green onions, add a little salt and oil, and make a pastry. The method of making pastry is to mix 10 grams of flour with hot oil and mix it into a paste.",
+                        "Roll out the dough, put a little pastry evenly on the dough, then put in the green onions, then circle it into a pancake, then cover it with plastic wrap, wait for two hours and roll it into a thin pancake, and then you can fry the scallion pancake."]
     },
     {
       "id": "5",
@@ -53,9 +59,10 @@
       "folder": "food_images/ricenoodlerolls",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
       "description": "A very delicious type of noodle.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Cornstarch", "Glutinous rice flour", "Oil", "Minced pork", "Egg", "Green onions"],
+      "instructions": ["Add a little cornstarch to a cup of glutinous rice flour and stir with three cups of cold water until it becomes a paste.",
+                        "Use a large plate, grease the inside of the plate, use a pot to boil water, and use a large spoon to put the batter into the plate, then add a little minced pork, a little egg, and a little green onion.",
+                        "Cook it for about two minutes and then take it out and scrape it with a spatula and you can eat it"]
     },
     {
       "id": "6",
@@ -64,9 +71,11 @@
       "folder": "food_images/sushi",
       "image_path": ["1.jpg"],
       "description": "The easiest food for Mudz to eat. The best 'lazy' food.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Cucumber", "Avocado", "Egg", "Shrimp", "Seaweed", "Sushi rice", "Sushi vinegar"],
+      "instructions": ["Cook sushi rice.",
+                        "Prepare cucumber, avocado, egg, and cooked shrimp.",
+                        "Mix seaweed and rice with sushi vinegar.",
+                        "Start by laying the seaweed flat and the rice flat, then put the ingredients in 2 in, and then roll it up. Cut a small piece with a sharp knife."]
     },
     {
       "id": "7",
@@ -75,9 +84,10 @@
       "folder": "food_images/steamedbuns",
       "image_path": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"],
       "description": "Very delicious and comforting food. Can be made to look extremely beautiful and presentable.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Low-gluten flour", "White sugar", "Baking powder", "Milk", "Instant yeast"],
+      "instructions": ["Use 250 grams of low-gluten flour, add 50 grams of white sugar, put into the flour, and then put 5 grams of baking powder into the flour.",
+                        "120 grams of warm milk. 3 grams of instant yeast, put into the milk and stir evenly. Then pour it into the flour and stir evenly, then start to knead it into a smooth dough, cover it with plastic wrap and ferment it until it doubles in size, which takes about half an hour to 40 minutes. This depends on the temperature. It will be faster in hot weather and slower in cold weather.",
+                        "After fermentation, pour it out and knead it until it is smooth, about ten minutes. Then start using the rolling pin to roll out a large piece, then circle it into a long strip, then cut it into a small section, and then let the dough ferment again, about twenty minutes to half an hour, you can start steaming the buns, just steam it with boiling water for twenty minutes."]
     },
     {
       "id": "8",
@@ -86,9 +96,10 @@
       "folder": "food_images/friedrice",
       "image_path": ["1.jpg"],
       "description": "The best fried rice dish available anywhere.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Rice", "Chicken", "Eggs", "Corn", "Onions", "Green onions"],
+      "instructions": ["Use rice.",
+                        "Stir-fry chicken, eggs, corn, onions, and green onions.",
+                        "Stir-fry the chicken first, then add the onions, then stir-fry everything together for 20 minutes and add the seasoning."]
     },
     {
       "id": "9",
@@ -97,9 +108,9 @@
       "folder": "food_images/riceballnoodles",
       "image_path": ["1.jpg", "2.jpg"],
       "description": "The best type of noodles. Comes in bite-sized, chewy balls.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Glutinous rice flour", "Chicken", "Dried shrimp", "Mushrooms", "Shredded white radish"],
+      "instructions": ["Use glutinous rice flour, pour cold water into the flour, stir while pouring, and make small round balls when the dough is not sticky.",
+                        "Chicken, dried shrimp, mushrooms, shredded white radish, and you can put a lot of things you like in it. After cooking, keep the fire on and put in the glutinous rice balls. Cook until the glutinous rice balls float up and become very big. That's it."]
     },
     {
       "id": "10",
@@ -108,9 +119,11 @@
       "folder": "food_images/vinegareggs",
       "image_path": ["1.jpg"],
       "description": "The most delicious way to cook eggs. Flavorful burst that's good with rice or alone.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Pig's foot", "Peanuts", "Ginger", "Eggs", "Black vinegar", "White vinegar"],
+      "instructions": ["A pig's foot, peanuts, ginger, eggs.",
+                        "Use 800-1000 grams of black vinegar and 100 grams of white vinegar.",
+                        "Pour all the ingredients into a casserole. Do not use an iron pot or a stainless steel pot to cook. Use glass or ceramic utensils.",
+                        "Turn off the heat after cooking for about 40 minutes, and wait for about half an hour before eating"]
     },
     {
       "id": "11",
@@ -119,9 +132,10 @@
       "folder": "food_images/ricecakes",
       "image_path": ["1.jpg"],
       "description": "A great and unique way to eat rice.",
-      "ingredients": ["Chicken", "Rice", "Soy sauce"],
-      "instructions": ["Step one test",
-                        "Step two test"]
+      "ingredients": ["Rice cake", "Shrimp", "Meat", "Vegetables"],
+      "instructions": ["Rice cake, shrimp, meat, vegetables.",
+                        "Rice cake needs to be softened before frying, stir-fry with onion and garlic.",
+                        "Stir-fry for about 20 minutes and add seasonings"]
     }
   ]
   
