@@ -12,7 +12,7 @@ function Home() {
                     className="home-logo"
                 />
                 <h1>Mom's Cookbook</h1>
-                <p>Delicious recipes from our amazing mom! Birthday present for Shunz.</p>
+                <p>Delicious recipes from our amazing mom!</p>
             </div>
             <div className="recipes-grid">
                 {recipes.map((recipe) => (

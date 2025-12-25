@@ -531,3 +531,11 @@ p {
   margin-top: 0.25rem;
   font-style: italic;
 }
+
+/* About Page Styling */
+.about-photo {
+  width: 75vw;
+  height: auto;
+  margin: 0 auto 2rem;
+  display: block;
+}
