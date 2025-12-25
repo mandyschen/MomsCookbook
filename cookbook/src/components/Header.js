@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 function Header() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isMuted, setIsMuted] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false); // hamburger state
   const audioRef = useRef(null);
   const navigate = useNavigate();
 
@@ -28,6 +29,10 @@ function Header() {
     setIsMuted(!isMuted);
   };
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
@@ -35,6 +40,7 @@ function Header() {
   const handleSearchSubmit = (event) => {
     event.preventDefault();
     navigate(`/MomsCookbook/search?query=${searchQuery}`);
+    setMenuOpen(false); // close menu on submit
   };
 
   return (
@@ -43,19 +49,21 @@ function Header() {
         <source src={`${process.env.PUBLIC_URL}/audio/family_music.m4a`} type="audio/mp4" />
       </audio>
 
-      <nav>
-        <ul>
+      <nav className="navbar">
+        <button className="hamburger" onClick={toggleMenu}>
+          <i className="fas fa-bars"></i>
+        </button>
+
+        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <li>
-            <Link to="/MomsCookbook" className="button-link">
-              <i className="fas fa-home"></i>
-              <span>Home</span>
+            <Link to="/MomsCookbook" className="button-link" onClick={() => setMenuOpen(false)}>
+              <i className="fas fa-home"></i> <span>Home</span>
             </Link>
           </li>
 
           <li>
-            <Link to="/MomsCookbook/about" className="button-link">
-              <i className="fas fa-user"></i>
-              <span>About</span>
+            <Link to="/MomsCookbook/about" className="button-link" onClick={() => setMenuOpen(false)}>
+              <i className="fas fa-user"></i> <span>About</span>
             </Link>
           </li>
 
@@ -65,9 +73,9 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="button-link"
+              onClick={() => setMenuOpen(false)}
             >
-              <i className="fas fa-edit"></i>
-              <span>Submit or Request a Recipe</span>
+              <i className="fas fa-edit"></i> <span>Submit or Request a Recipe</span>
             </a>
           </li>
 
@@ -81,8 +89,7 @@ function Header() {
                 className="search-input"
               />
               <button type="submit" className="search-button">
-                <i className="fas fa-search"></i>
-                <span>Search</span>
+                <i className="fas fa-search"></i> <span>Search</span>
               </button>
             </form>
           </li>
